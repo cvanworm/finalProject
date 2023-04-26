@@ -1,0 +1,111 @@
+2023/03/22 16:09:14 cal sent a message to cal2
+
+2023/03/22 16:13:25 cal sent a message to cal2
+
+2023/03/22 16:14:04 IDEK is creating a new user
+
+2023/03/22 16:14:04 User not recognized
+2023/03/22 16:14:16 cal is creating a new user
+
+2023/03/22 16:14:30 cal successfully created a new user: IDEK
+
+2023/03/22 16:15:09 IDEK sent a message to cal
+
+2023/03/22 16:15:17 User tried to send a message from a user that does not exist: yes
+
+2023/03/22 16:15:17 User not recognized
+2023/03/22 16:15:31 IDEK failed to login to send a message
+
+2023/03/22 16:15:31 Unable to authenticate user
+2023/03/22 16:23:01 cal sent a message to cal2
+
+2023/03/22 16:23:29 Failed to read messages for a user that doesn't exist: void
+
+2023/03/22 16:23:29 User not recognized
+2023/03/22 16:23:49 cal read their messages successfully
+
+2023/03/22 16:30:56 void is creating a new user
+
+2023/03/22 16:31:01 void successfully created a new user: cal
+
+2023/03/22 16:31:25 cal2 is creating a new user
+
+2023/03/22 16:31:25 User not recognized
+2023/03/22 16:31:35 cal is creating a new user
+
+2023/03/22 16:31:35 cal couldn't log in while creating a new user
+
+2023/03/22 16:31:35 Unable to authenticate user
+2023/03/22 16:31:41 cal is creating a new user
+
+2023/03/22 16:31:47 cal successfully created a new user: cal2
+
+2023/03/22 16:32:18 cal2 sent a message to cal
+
+2023/03/22 16:33:38 cal sent a message to cal2
+
+2023/03/23 13:34:48 cal2 sent a message to cal
+
+2023/03/23 13:35:08 err: no such column: sender
+2023/03/23 13:35:24 err: no such column: sender
+2023/03/23 13:35:36 err: no such column: sender
+2023/03/23 13:36:11 cal read their messages successfully
+
+2023/03/23 13:36:53 cal read their messages successfully
+
+2023/03/23 13:40:09 cal read their messages successfully
+
+2023/03/23 13:40:25 unable to scan row
+2023/03/23 13:44:57 unable to scan row
+2023/03/23 13:49:43 unable to scan row
+2023/03/23 13:51:29 err: incomplete input
+2023/03/23 14:09:17 cal read their messages successfully
+
+2023/03/23 14:11:58 cal read their messages successfully
+
+2023/03/23 15:01:48 void is creating a new user
+
+2023/03/23 15:01:52 void successfully created a new user: cal
+
+2023/03/23 15:02:25 cal is creating a new user
+
+2023/03/23 15:02:30 cal successfully created a new user: cal2
+
+2023/03/23 15:02:49 cal2 sent a message to cal
+
+2023/03/23 15:03:18 cal read their messages successfully
+
+2023/03/23 15:08:08 cal2 sent a message to cal
+
+2023/03/23 15:08:25 cal read their messages successfully
+
+2023/03/23 15:08:34 cal2 sent a message to cal
+
+2023/03/23 15:10:02 cal2 sent a message to cal
+
+2023/03/23 15:10:50 void is creating a new user
+
+2023/03/23 15:10:54 void successfully created a new user: cal
+
+2023/03/23 15:11:01 cal is creating a new user
+
+2023/03/23 15:11:05 cal successfully created a new user: cal2
+
+2023/03/23 15:11:19 cal2 sent a message to cal
+
+2023/03/23 15:20:10 err: no such column: Message.Hash
+2023/03/23 15:20:47 cal read their messages successfully
+
+2023/03/23 15:33:03 cal read their messages successfully
+
+2023/03/23 15:48:59 Message sent to cal could not be verified.
+2023/03/23 15:48:59 cal read their messages successfully
+
+2023/03/23 15:59:38 Message sent to cal could not be verified.
+2023/03/23 15:59:38 cal read their messages successfully
+
+2023/03/23 16:00:05 cal2 sent a message to cal
+
+2023/03/23 16:00:10 Message sent to cal could not be verified.
+2023/03/23 16:00:10 cal read their messages successfully
+
