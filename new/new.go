@@ -26,13 +26,14 @@ func NewUser(user string) {
 		log.Fatalf("Unable to authenticate user")
 	}
 
+	newEmail := getNewEmail()
 	newUser := getNewUsername()
 	newPassHash, err := session.GetPassword()
 	if err != nil {
 		log.Fatalf("Unable to get password hash")
 	}
 
-	err = db.SetUserPassHash(newUser, newPassHash)
+	err = db.SetUserPassHash(newUser, newEmail, newPassHash)
 	if err != nil {
 		log.Fatalf("Unable to create new user")
 	}
@@ -45,6 +46,18 @@ func NewUser(user string) {
 func getNewUsername() string {
 
 	fmt.Println("Enter the username for the new user: ")
+	reader := bufio.NewReader(os.Stdin)
+	text, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatalf("Error reading input: %v", err)
+	}
+
+	return strings.Trim(text, "\n\t ")
+}
+
+func getNewEmail() string {
+
+	fmt.Println("Enter an email for the new user: ")
 	reader := bufio.NewReader(os.Stdin)
 	text, err := reader.ReadString('\n')
 	if err != nil {

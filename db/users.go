@@ -62,16 +62,17 @@ func GetUserPassHash(user string) (string, error) {
 }
 
 // SetUsePassHash will allow for adding a new user to the Users table
-func SetUserPassHash(user, hash string) error {
+func SetUserPassHash(user, email, hash string) error {
 	db := Connect().Db
 
 	_, err := db.Exec(`
-		INSERT INTO Users (user, hash)
+		INSERT INTO Users (user, email, hash)
 		VALUES (
 			?,
+			?, 
 			?
 		);
-	`, user, hash)
+	`, user, email, hash)
 	return err
 }
 
